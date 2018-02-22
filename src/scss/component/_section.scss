@@ -47,12 +47,34 @@ section {
           color: $black;
           text-decoration: none;
         }
-        &-logo img {
-          width: 32px;
+
+        &-icon {
+          font-size: 24px;
+          transform: rotate(30deg);
         }
-        &-image img {
-          height: 100px;
+        &-logo {
+          min-height: 45px;
+
+          img {
+            width: 32px;
+            margin: auto;
+          }
         }
+        &-image {
+          min-height: 115px;
+
+          img {
+            height: 100px;
+          }
+        }
+
+        &-main-content {
+          font-size: 18px;
+        }
+        &-main-content, &-sub-content {
+          font-weight: 500;
+        }
+
         &-rate {
           color: $star;
         }
