@@ -1,0 +1,115 @@
+section {
+  padding-top: 20px;
+  text-align: center;
+
+  .title {
+    font-family: $montserrat;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .content {
+    font-family: $quicksand;
+    font-size: 16px;
+
+    &.grid-container {
+      display: flex;
+    }
+    &-item {
+      &-birth, &-address {
+        margin-bottom: 8px;
+      }
+    }
+
+    &-grid {
+      display: grid;
+      margin: 0 auto;
+
+      &.education, &.organization, &.work {
+        grid-template-columns: 500px 500px;
+      }
+      &.skill {
+        grid-template-columns: 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px;
+      }
+      &.interest {
+        grid-template-columns: 250px 250px 250px;
+      }
+      &.portfolio {
+        grid-template-columns: 160px 160px;
+      }
+      &.social-media {
+        grid-template-columns: 160px 160px 160px 160px 160px 160px;
+      }
+
+      &-item {
+        a {
+          color: $black;
+          text-decoration: none;
+        }
+        &-logo img {
+          width: 32px;
+        }
+        &-image img {
+          height: 100px;
+        }
+        &-rate {
+          color: $star;
+        }
+      }
+    }
+  }
+
+  // .content {
+  //   font-family: $quicksand;
+  //   font-size: 16px;
+  //
+  //   &-item {
+  //
+  //     &-birth, &-address {
+  //       margin-bottom: 8px;
+  //     }
+  //   }
+  //
+  //   &-grid {
+  //     display: grid;
+  //     grid-template-columns: 500px 500px;
+  //     margin: 0 auto;
+  //
+  //     &-item {
+  //       padding: 5px;
+  //       a {
+  //         text-decoration: none;
+  //         color: $black;
+  //       }
+  //       &-logo img {
+  //         height: 32px;
+  //         width: 32px;
+  //       }
+  //       &-image img {
+  //         height: 75px;
+  //       }
+  //       &-icon {
+  //         font-size: 24px;
+  //         transform: rotate(30deg);
+  //       }
+  //       &-year, &-main-content, &-sub-content  {
+  //         margin-bottom: 5px;
+  //       }
+  //       &-main-content {
+  //         font-size: 18px;
+  //       }
+  //       &-main-content, &-sub-content {
+  //         font-weight: 500;
+  //       }
+  //       &-rate {
+  //         font-size: 16px;
+  //         color: $star;
+  //         i {
+  //           margin: 1px;
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+}
