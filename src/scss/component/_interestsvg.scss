@@ -1,0 +1,11 @@
+section .content {
+  &-grid {
+    &-item {
+      &-image {
+        svg {
+          fill: blue;
+        }
+      }
+    }
+  }
+}

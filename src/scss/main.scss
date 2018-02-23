@@ -6,6 +6,7 @@
 
 'component/header',
 'component/section',
+'component/interestsvg',
 'component/footer';
 
 * {
@@ -21,7 +22,7 @@ html, body {
 
 body {
   font-size: 16px;
-  
+
   @include breakpoint(0, 480px) {
     font-size: 14px;
   }

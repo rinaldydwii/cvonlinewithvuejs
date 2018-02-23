@@ -158,15 +158,15 @@ export default {
         class: 'interest',
         item: [
           { id: '1',
-            image: '',
+            image: 'programming',
             name: 'Programming'
           },
           { id: '2',
-            image: '/static/assets/interest/design.svg',
+            image: 'design',
             name: 'Design'
           },
           { id: '3',
-            image: '/static/assets/interest/travelling.svg',
+            image: 'travelling',
             name: 'Travelling'
           }
         ]
