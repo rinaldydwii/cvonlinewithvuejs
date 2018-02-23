@@ -1,5 +1,6 @@
 header {
-  background: #666 url('./assets/background-header.jpg') no-repeat 50% 65%;
+  background: #666 no-repeat 50% 65%;
+  background-image: url('/static/background-header.jpg');
   background-size: cover;
   width: 100%;
   min-height: 100vh;
