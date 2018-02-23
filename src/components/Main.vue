@@ -9,7 +9,9 @@
       <app-section :sectionData="interest"></app-section>
       <app-section :sectionData="portfolio"></app-section>
       <app-section :sectionData="socialMedia"></app-section>
-      <hr />
+      <footer>
+        2018 &copy; Created by Rinaldy Dwi Istanto.
+      </footer>
     </div>
   </main>
 </template>
@@ -85,67 +87,67 @@ export default {
         class: 'skill',
         item: [
           { id: '1',
-            icon: '/static/html.svg',
+            icon: '/static/assets/skill/html.svg',
             name: 'HTML',
             rate: 4
           },
           { id: '2',
-            icon: '/static/css.svg',
+            icon: '/static/assets/skill/css.svg',
             name: 'CSS',
             rate: 4
           },
           { id: '3',
-            icon: '/static/php.svg',
+            icon: '/static/assets/skill/php.svg',
             name: 'PHP',
             rate: 3
           },
           { id: '4',
-            icon: '/static/javascript.svg',
+            icon: '/static/assets/skill/javascript.svg',
             name: 'Javascript',
             rate: 3
           },
           { id: '5',
-            icon: '/static/jquery.svg',
+            icon: '/static/assets/skill/jquery.svg',
             name: 'JQuery',
             rate: 3
           },
           { id: '6',
-            icon: '/static/laravel.svg',
+            icon: '/static/assets/skill/laravel.svg',
             name: 'Laravel',
             rate: 3
           },
           { id: '7',
-            icon: '/static/mysql.svg',
+            icon: '/static/assets/skill/mysql.svg',
             name: 'MySQL',
             rate: 3
           },
           { id: '8',
-            icon: '/static/mongodb.svg',
+            icon: '/static/assets/skill/mongodb.svg',
             name: 'MongoDB',
             rate: 2
           },
           { id: '9',
-            icon: '/static/reactjs.svg',
+            icon: '/static/assets/skill/reactjs.svg',
             name: 'ReactJS',
             rate: 3
           },
           { id: '10',
-            icon: '/static/nodejs.svg',
+            icon: '/static/assets/skill/nodejs.svg',
             name: 'NodeJS',
             rate: 2
           },
           { id: '11',
-            icon: '/static/git.svg',
+            icon: '/static/assets/skill/git.svg',
             name: 'Git',
             rate: 2
           },
           { id: '12',
-            icon: '/static/photoshop.svg',
+            icon: '/static/assets/skill/photoshop.svg',
             name: 'Photoshop',
             rate: 4
           },
           { id: '13',
-            icon: '/static/illustrator.svg',
+            icon: '/static/assets/skill/illustrator.svg',
             name: 'Illustrator',
             rate: 4
           }
@@ -156,15 +158,15 @@ export default {
         class: 'interest',
         item: [
           { id: '1',
-            image: '/static/programming.svg',
+            image: '',
             name: 'Programming'
           },
           { id: '2',
-            image: '/static/design.svg',
+            image: '/static/assets/interest/design.svg',
             name: 'Design'
           },
           { id: '3',
-            image: '/static/travelling.svg',
+            image: '/static/assets/interest/travelling.svg',
             name: 'Travelling'
           }
         ]
@@ -174,12 +176,12 @@ export default {
         class: 'portfolio',
         item: [
           { id: '1',
-            logo: '/static/github.svg',
+            logo: '/static/assets/portfolio/github.svg',
             username: 'rinaldydwii',
             link: 'https://github.com/rinaldydwii'
           },
           { id: '2',
-            logo: '/static/behance.svg',
+            logo: '/static/assets/portfolio/behance.svg',
             username: 'rinaldydwii',
             link: 'https://behance.com/rinaldydwii'
           }
@@ -190,32 +192,32 @@ export default {
         class: 'social-media',
         item: [
           { id: '1',
-            logo: '/static/facebook.svg',
+            logo: '/static/assets/social-media/facebook.svg',
             username: '/rinaldydwii',
             link: 'https://facebook.com/rinaldydwii'
           },
           { id: '2',
-            logo: '/static/twitter.svg',
+            logo: '/static/assets/social-media/twitter.svg',
             username: '@rinaldydwii',
             link: 'https://twitter.com/rinaldydwii'
           },
           { id: '3',
-            logo: '/static/instagram.svg',
+            logo: '/static/assets/social-media/instagram.svg',
             username: 'rinaldydwii',
             link: 'https://instagram.com/rinaldydwii'
           },
           { id: '4',
-            logo: '/static/linkedin.svg',
+            logo: '/static/assets/social-media/linkedin.svg',
             username: 'Rinaldy Dwi Istanto',
             link: 'https://linkedin.com/in/rinaldydwii'
           },
           { id: '5',
-            logo: '/static/line.svg',
+            logo: '/static/assets/social-media/line.svg',
             username: 'aldyakakeju',
             link: 'http://line.me/ti/p/~aldyakakeju'
           },
           { id: '6',
-            logo: '/static/whatsapp.svg',
+            logo: '/static/assets/social-media/whatsapp.svg',
             username: '+6281236001695',
             link: 'https://api.whatsapp.com/send?phone=6281236001695'
           }

@@ -24,6 +24,7 @@
         <item-social-media v-for="value in sectionData.item" :key="value.id" :value="value"></item-social-media>
       </div>
     </div>
+    <hr />
   </section>
 </template>
 
