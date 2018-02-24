@@ -19,14 +19,14 @@
         </div>
         <div class="contact">
           <div class="contact-grid">
-            <div class="contact-grid-item">
+            <a class="contact-grid-item" href="mailto:rinaldydwii@gmail.com">
               <div class="contact-grid-item-icon"><i class="icon ion-ios-email-outline"></i></div>
               <div class="contact-grid-item-info">rinaldydwii@gmail.com</div>
-            </div>
-            <div class="contact-grid-item">
+            </a>
+            <a class="contact-grid-item" href="tel:6281236001695">
               <div class="contact-grid-item-icon"><i class="icon ion-ios-telephone"></i></div>
               <div class="contact-grid-item-info">+62 812 3600 1695</div>
-            </div>
+            </a>
           </div>
         </div>
       </div>

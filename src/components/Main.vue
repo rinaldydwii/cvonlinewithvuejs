@@ -111,35 +111,20 @@ export default {
             name: 'JQuery',
             rate: 3
           },
-          { id: '6',
-            icon: '/static/assets/skill/laravel.svg',
-            name: 'Laravel',
-            rate: 3
-          },
           { id: '7',
             icon: '/static/assets/skill/mysql.svg',
             name: 'MySQL',
             rate: 3
-          },
-          { id: '8',
-            icon: '/static/assets/skill/mongodb.svg',
-            name: 'MongoDB',
-            rate: 2
           },
           { id: '9',
             icon: '/static/assets/skill/reactjs.svg',
             name: 'ReactJS',
             rate: 3
           },
-          { id: '10',
-            icon: '/static/assets/skill/nodejs.svg',
-            name: 'NodeJS',
-            rate: 2
-          },
           { id: '11',
             icon: '/static/assets/skill/git.svg',
             name: 'Git',
-            rate: 2
+            rate: 3
           },
           { id: '12',
             icon: '/static/assets/skill/photoshop.svg',
